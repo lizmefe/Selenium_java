@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="073dac76-211b-4257-a878-4b275e61984c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/RegisterStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$Pather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep$TimeOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/RegisterStep.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,12 +102,19 @@
       </list>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectId" id="2p3EYXbd24j8yP2nrKkqCNQLHtQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -163,22 +189,20 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554833947256" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Steps" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Otomasyon" />
@@ -190,6 +214,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Runner" />
       <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,6 +225,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

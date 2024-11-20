@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.067215">
-<testcase classname="HepsiBurada Registering" name="Register from the search bar" time="25.067215">
-<system-out><![CDATA[Given a web browser is at the Hepsiburada home page.........................passed
-When the user click dropdown................................................passed
-And user clicks on the registration item....................................passed
-Then user sees the registration form........................................passed
-And user enters the name....................................................passed
-And user enters the surname.................................................passed
-And user enters the email...................................................passed
-And user enters password....................................................passed
-And user click the agreement checkbox.......................................passed
-And user click submit button................................................passed
-And driver close............................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.606702">
+<testcase classname="SauceDemo Login" name="User makes the purchase" time="3.606702">
+<system-out><![CDATA[Given a web browser is at the SauceDemo home page...........................passed
+When the user enters the username "standard_user"...........................passed
+And the user enters the password "secret_sauce".............................passed
+And the user clicks the login button Login..................................passed
+When the users add to cart a "backpack".....................................passed
+Then the user go to cart....................................................passed
+And the user proceeds to checkout...........................................passed
+When the user fills in their information with "FirstName", "LastName", and "12345".passed
+And the user confirms the checkout..........................................passed
+And the user clicks the finish button.......................................passed
+Then the user sees the button Back Home.....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

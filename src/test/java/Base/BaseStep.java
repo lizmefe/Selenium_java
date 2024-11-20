@@ -1,22 +1,24 @@
 package Base;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NotFoundException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-
 public class BaseStep {
     public WebDriver driver;
 
-    public BaseStep()
-    {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sevo\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    public BaseStep() {
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-
     }
+
     public enum Pather {
         id,
         className,
@@ -27,8 +29,8 @@ public class BaseStep {
     }
 
     public enum TimeOut {
-        LOW(5),
-        MIDDLE(10),
+        LOW(2),
+        MIDDLE(5),
         HIGH(15),
         CUSTOM_MAX(60);
         private final int value;
@@ -43,9 +45,9 @@ public class BaseStep {
         }
 
     }
-    public void geturl()
-    {
-    driver.get("https://www.hepsiburada.com");
+
+    public void geturl() {
+        driver.get("https://www.saucedemo.com/");
 
     }
 
@@ -59,6 +61,7 @@ public class BaseStep {
         }
 
     }
+
     public void findElementClick(String path, Pather type) {
         try {
             WebDriverWait wait = new WebDriverWait(driver, TimeOut.MIDDLE.value);
@@ -85,9 +88,13 @@ public class BaseStep {
                     new NotFoundException();
             }
 
-        } catch (Exception ex) { }
+        } catch (Exception ex) {
+        }
     }
-    public WebElement findElement(String path, Pather type,TimeOut timeOut) {
+
+    
+
+    public WebElement findElement(String path, Pather type, TimeOut timeOut) {
 
         try {
             WebDriverWait wait = new WebDriverWait(driver, timeOut.value);
@@ -115,9 +122,7 @@ public class BaseStep {
                     new NotFoundException();
             }
             return element;
-        }
-        catch (Exception ex)
-        {
+        } catch (Exception ex) {
             return null;
         }
     }
@@ -156,7 +161,6 @@ public class BaseStep {
         }
     }
 
-
     public void PageScrolldown() {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,300)", "");
@@ -167,6 +171,13 @@ public class BaseStep {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,-300)", "");
     }
+
     public void DriverQuit() {
-        driver.quit(); }
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
+}
+
+

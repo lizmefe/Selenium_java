@@ -1,155 +1,196 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Register.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
 formatter.feature({
   "line": 1,
-  "name": "HepsiBurada Registering",
+  "name": "SauceDemo Login",
   "description": "",
-  "id": "hepsiburada-registering",
+  "id": "saucedemo-login",
   "keyword": "Feature"
 });
-formatter.scenario({
+formatter.background({
   "line": 3,
-  "name": "Register from the search bar",
+  "name": "",
   "description": "",
-  "id": "hepsiburada-registering;register-from-the-search-bar",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 2,
-      "name": "@register"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
   "line": 4,
-  "name": "a web browser is at the Hepsiburada home page",
+  "name": "a web browser is at the SauceDemo home page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "the user click dropdown",
+  "name": "the user enters the username \"standard_user\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "user clicks on the registration item",
+  "name": "the user enters the password \"secret_sauce\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "user sees the registration form",
+  "name": "the user clicks the login button Login",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginStep.aWebBrowserHomePage()"
+});
+formatter.result({
+  "duration": 2443750600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "standard_user",
+      "offset": 30
+    }
+  ],
+  "location": "LoginStep.theUserEntersTheUsername(String)"
+});
+formatter.result({
+  "duration": 127145000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "secret_sauce",
+      "offset": 30
+    }
+  ],
+  "location": "LoginStep.theUserEntersThePassword(String)"
+});
+formatter.result({
+  "duration": 82474100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.theUserClicksTheLoginButton()"
+});
+formatter.result({
+  "duration": 218996100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 34,
+  "name": "User makes the purchase",
+  "description": "",
+  "id": "saucedemo-login;user-makes-the-purchase",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 35,
+  "name": "the users add to cart a \"backpack\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 36,
+  "name": "the user go to cart",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
-  "name": "user enters the name",
+  "line": 37,
+  "name": "the user proceeds to checkout",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
-  "name": "user enters the surname",
+  "line": 38,
+  "name": "the user fills in their information with \"FirstName\", \"LastName\", and \"12345\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 39,
+  "name": "the user confirms the checkout",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
-  "name": "user enters the email",
+  "line": 40,
+  "name": "the user clicks the finish button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "user enters password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "user click the agreement checkbox",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "user click submit button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "driver close",
-  "keyword": "And "
+  "line": 41,
+  "name": "the user sees the button Back Home",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "RegisterStep.aWebBrowserIsAtTheHepsiburadaHomePage()"
+  "arguments": [
+    {
+      "val": "backpack",
+      "offset": 25
+    }
+  ],
+  "location": "LoginStep.theUsersAddToCartA(String)"
 });
 formatter.result({
-  "duration": 13595397873,
+  "duration": 64875500,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.theUserClickDropdown()"
+  "location": "LoginStep.theUserGoToCart()"
 });
 formatter.result({
-  "duration": 978230669,
+  "duration": 128723300,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.userClicksOnTheRegistrationItem()"
+  "location": "LoginStep.theUserProceedsToCheckout()"
 });
 formatter.result({
-  "duration": 2930374607,
+  "duration": 81707300,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.userSeesTheRegistrationForm()"
+  "arguments": [
+    {
+      "val": "FirstName",
+      "offset": 42
+    },
+    {
+      "val": "LastName",
+      "offset": 55
+    },
+    {
+      "val": "12345",
+      "offset": 71
+    }
+  ],
+  "location": "LoginStep.theUserFillsInTheirInformationWithAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 5217083524,
+  "duration": 282371500,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.userEntersTheName()"
+  "location": "LoginStep.theUserConfirmsTheCheckout()"
 });
 formatter.result({
-  "duration": 172834252,
+  "duration": 85830000,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.userEntersTheSurname()"
+  "location": "LoginStep.theUserClicksTheFinishButton()"
 });
 formatter.result({
-  "duration": 124559189,
+  "duration": 64563900,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterStep.userEntersTheEmail()"
+  "location": "LoginStep.theUserSeesTheButtonBackHome()"
 });
 formatter.result({
-  "duration": 251600988,
+  "duration": 26265200,
   "status": "passed"
 });
-formatter.match({
-  "location": "RegisterStep.userEntersPassword()"
-});
-formatter.result({
-  "duration": 472673474,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegisterStep.userClickTheAgreementCheckbox()"
-});
-formatter.result({
-  "duration": 134781845,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegisterStep.userClickSubmitButton()"
-});
-formatter.result({
-  "duration": 179946399,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegisterStep.driverClose()"
-});
-formatter.result({
-  "duration": 1009732413,
-  "status": "passed"
+formatter.uri("LoginUnhappy.feature");
+formatter.feature({
+  "line": 1,
+  "name": "SauceDemo Login",
+  "description": "",
+  "id": "saucedemo-login",
+  "keyword": "Feature"
 });
 });

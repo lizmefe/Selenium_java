@@ -1,0 +1,545 @@
+2024.11.18 22:23:25 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber' for client Visual Studio Code 1.95.3.
+2024.11.18 22:23:26 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.18 22:23:27 INFO  restarted 0 presentation compilers
+Nov 18, 2024 10:23:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 18, 2024 10:23:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber/target/test-classes/Runner/Runner.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Nov 18, 2024 10:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber/target/test-classes/Runner/Runner.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Nov 18, 2024 10:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber/target/test-classes/Steps/RegisterStep.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Nov 18, 2024 10:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber/target/test-classes/Steps/RegisterStep.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Nov 18, 2024 10:24:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/Family/Documents/Proyectos_nase/Selenium_java/Sample-Selenium-Project-With-Cucumber/target/test-classes/Runner/Runner.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2024.11.18 22:36:15 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2024.11.18 22:36:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:39 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:39 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.11.18 22:36:40 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:40 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-41-764.md
+Nov 18, 2024 10:36:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-41-764.md
+2024.11.18 22:36:40 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:40 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:41 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-42-428.md
+2024.11.18 22:36:50 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-50-674.md
+2024.11.18 22:36:50 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-51-084.md
+2024.11.18 22:36:50 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-51-315.md
+2024.11.18 22:36:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-53-269.md
+2024.11.18 22:36:54 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:54 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:55 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-55-162.md
+2024.11.18 22:36:56 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-56-301.md
+2024.11.18 22:36:56 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-56-791.md
+2024.11.18 22:36:56 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:57 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:57 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:36:59 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:36:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-36-59-168.md
+2024.11.18 22:37:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:37:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:37:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:37:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-37-01-079.md
+2024.11.18 22:37:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:37:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:37:03 WARN  no build target for: C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java
+2024.11.18 22:37:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:37:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:37:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-37-03-449.md
+2024.11.18 22:41:33 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:41:33 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:41:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-41-33-546.md
+2024.11.18 22:44:56 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:44:56 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:44:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-44-56-790.md
+2024.11.18 22:45:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:00 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-00-715.md
+2024.11.18 22:45:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-02-183.md
+2024.11.18 22:45:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-02-551.md
+2024.11.18 22:45:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:03 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-04-098.md
+2024.11.18 22:45:04 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:04 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:05 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-05-294.md
+2024.11.18 22:45:07 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:07 WARN  no build target for: C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java
+2024.11.18 22:45:07 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-07-352.md
+2024.11.18 22:45:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:23 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:45:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-45-23-174.md
+2024.11.18 22:45:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:26 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:45:30 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:05 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:05 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-05-730.md
+2024.11.18 22:46:05 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:07 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-07-199.md
+2024.11.18 22:46:07 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-09-432.md
+2024.11.18 22:46:11 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:11 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:12 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-12-176.md
+2024.11.18 22:46:13 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:13 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:13 WARN  no build target for: C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java
+2024.11.18 22:46:13 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-13-463.md
+2024.11.18 22:46:24 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:24 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:24 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-24-593.md
+2024.11.18 22:46:26 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-26-523.md
+2024.11.18 22:46:29 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-29-697.md
+2024.11.18 22:46:29 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-30-076.md
+2024.11.18 22:46:31 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:31 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-32-867.md
+2024.11.18 22:46:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-33-030.md
+2024.11.18 22:46:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:34 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:36 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:37 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-37-613.md
+2024.11.18 22:46:37 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-38-003.md
+2024.11.18 22:46:37 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:39 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:39 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:39 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-40-311.md
+Nov 18, 2024 10:46:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+2024.11.18 22:46:41 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-41-771.md
+2024.11.18 22:46:41 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-42-702.md
+2024.11.18 22:46:43 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-43-746.md
+2024.11.18 22:46:44 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-44-792.md
+2024.11.18 22:46:45 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:47 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-48-043.md
+2024.11.18 22:46:47 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-48-189.md
+2024.11.18 22:46:47 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:50 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-50-582.md
+2024.11.18 22:46:50 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:46:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-46-50-909.md
+2024.11.18 22:46:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:46:53 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:16 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:16 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:17 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-17-366.md
+2024.11.18 22:47:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-22-735.md
+2024.11.18 22:47:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-22-993.md
+2024.11.18 22:47:23 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-23-853.md
+2024.11.18 22:47:23 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-24-311.md
+2024.11.18 22:47:23 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-24-701.md
+2024.11.18 22:47:26 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:26 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-27-191.md
+2024.11.18 22:47:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:32 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-32-643.md
+2024.11.18 22:47:45 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:45 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:47:45 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:47:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-47-45-532.md
+2024.11.18 22:48:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-01-601.md
+2024.11.18 22:48:02 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:08 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-08-442.md
+2024.11.18 22:48:08 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-08-737.md
+2024.11.18 22:48:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-09-523.md
+2024.11.18 22:48:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-09-852.md
+2024.11.18 22:48:09 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-10-157.md
+2024.11.18 22:48:13 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-13-248.md
+2024.11.18 22:48:13 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-14-125.md
+2024.11.18 22:48:14 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:14 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-14-795.md
+2024.11.18 22:48:16 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:16 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:19 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:19 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:19 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-19-407.md
+2024.11.18 22:48:20 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-20-550.md
+2024.11.18 22:48:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-22-384.md
+2024.11.18 22:48:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:22 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:23 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-23-240.md
+2024.11.18 22:48:38 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-38-787.md
+2024.11.18 22:48:42 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-42-228.md
+2024.11.18 22:48:48 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:48 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:48 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-48-375.md
+2024.11.18 22:48:48 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-48-887.md
+2024.11.18 22:48:49 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-49-210.md
+2024.11.18 22:48:49 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:49 WARN  no build target for: C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java
+2024.11.18 22:48:49 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-49-989.md
+2024.11.18 22:48:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-52-600.md
+2024.11.18 22:48:52 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:54 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:48:54 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-54-896.md
+2024.11.18 22:48:54 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-55-457.md
+2024.11.18 22:48:55 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:48:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-48-55-718.md
+2024.11.18 22:49:27 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:49:27 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:49:28 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-49-28-431.md
+2024.11.18 22:49:27 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-49-28-920.md
+2024.11.18 22:49:30 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-49-30-610.md
+2024.11.18 22:49:34 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:49:34 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Runner\Runner.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-49-34-610.md
+2024.11.18 22:49:44 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:49:44 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:49:44 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-49-44-815.md
+2024.11.18 22:49:46 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:49:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+Nov 18, 2024 10:49:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 437
+2024.11.18 22:50:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:50:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:50:01 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Steps\RegisterStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:50:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-50-01-735.md
+2024.11.18 22:50:04 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:50:04 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:50:05 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:50:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-50-05-261.md
+2024.11.18 22:50:31 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.18 22:50:31 WARN  no build target for: C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java
+2024.11.18 22:50:31 INFO  no build target found for C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\src\test\java\Base\BaseStep.java. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 18, 2024 10:50:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Family\Documents\Proyectos_nase\Selenium_java\Sample-Selenium-Project-With-Cucumber\.metals\.reports\metals-full\2024-11-18\r_compiler-error_22-50-31-284.md
+2024.11.18 22:50:32 INFO  Shutting down server
+2024.11.18 22:50:32 INFO  shutting down Metals
+2024.11.18 22:50:32 INFO  Exiting server
+2024.11.18 22:50:32 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+

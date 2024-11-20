@@ -4,157 +4,200 @@
     "elements": [
       {
         "line": 3,
-        "name": "Register from the search bar",
+        "name": "",
         "description": "",
-        "id": "hepsiburada-registering;register-from-the-search-bar",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 13595397873,
+              "duration": 2443750600,
               "status": "passed"
             },
             "line": 4,
-            "name": "a web browser is at the Hepsiburada home page",
+            "name": "a web browser is at the SauceDemo home page",
             "match": {
-              "location": "RegisterStep.aWebBrowserIsAtTheHepsiburadaHomePage()"
+              "location": "LoginStep.aWebBrowserHomePage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 978230669,
+              "duration": 127145000,
               "status": "passed"
             },
             "line": 5,
-            "name": "the user click dropdown",
+            "name": "the user enters the username \"standard_user\"",
             "match": {
-              "location": "RegisterStep.theUserClickDropdown()"
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStep.theUserEntersTheUsername(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2930374607,
+              "duration": 82474100,
               "status": "passed"
             },
             "line": 6,
-            "name": "user clicks on the registration item",
+            "name": "the user enters the password \"secret_sauce\"",
             "match": {
-              "location": "RegisterStep.userClicksOnTheRegistrationItem()"
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStep.theUserEntersThePassword(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5217083524,
+              "duration": 218996100,
               "status": "passed"
             },
             "line": 7,
-            "name": "user sees the registration form",
+            "name": "the user clicks the login button Login",
             "match": {
-              "location": "RegisterStep.userSeesTheRegistrationForm()"
+              "location": "LoginStep.theUserClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "User makes the purchase",
+        "description": "",
+        "id": "saucedemo-login;user-makes-the-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64875500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the users add to cart a \"backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "backpack",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.theUsersAddToCartA(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128723300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user go to cart",
+            "match": {
+              "location": "LoginStep.theUserGoToCart()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 172834252,
+              "duration": 81707300,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enters the name",
+            "line": 37,
+            "name": "the user proceeds to checkout",
             "match": {
-              "location": "RegisterStep.userEntersTheName()"
+              "location": "LoginStep.theUserProceedsToCheckout()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 124559189,
+              "duration": 282371500,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user enters the surname",
+            "line": 38,
+            "name": "the user fills in their information with \"FirstName\", \"LastName\", and \"12345\"",
             "match": {
-              "location": "RegisterStep.userEntersTheSurname()"
+              "arguments": [
+                {
+                  "val": "FirstName",
+                  "offset": 42
+                },
+                {
+                  "val": "LastName",
+                  "offset": 55
+                },
+                {
+                  "val": "12345",
+                  "offset": 71
+                }
+              ],
+              "location": "LoginStep.theUserFillsInTheirInformationWithAnd(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85830000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user confirms the checkout",
+            "match": {
+              "location": "LoginStep.theUserConfirmsTheCheckout()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 251600988,
+              "duration": 64563900,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user enters the email",
+            "line": 40,
+            "name": "the user clicks the finish button",
             "match": {
-              "location": "RegisterStep.userEntersTheEmail()"
+              "location": "LoginStep.theUserClicksTheFinishButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 472673474,
+              "duration": 26265200,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user enters password",
+            "line": 41,
+            "name": "the user sees the button Back Home",
             "match": {
-              "location": "RegisterStep.userEntersPassword()"
+              "location": "LoginStep.theUserSeesTheButtonBackHome()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 134781845,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user click the agreement checkbox",
-            "match": {
-              "location": "RegisterStep.userClickTheAgreementCheckbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 179946399,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user click submit button",
-            "match": {
-              "location": "RegisterStep.userClickSubmitButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1009732413,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "driver close",
-            "match": {
-              "location": "RegisterStep.driverClose()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@register"
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "HepsiBurada Registering",
+    "name": "SauceDemo Login",
     "description": "",
-    "id": "hepsiburada-registering",
+    "id": "saucedemo-login",
     "keyword": "Feature",
-    "uri": "Register.feature"
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "name": "SauceDemo Login",
+    "description": "",
+    "id": "saucedemo-login",
+    "keyword": "Feature",
+    "uri": "LoginUnhappy.feature"
   }
 ]
